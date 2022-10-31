@@ -7,7 +7,7 @@ from pathvalidate import ValidationError, validate_filename
 from pathvalidate import sanitize_filename
 
 pytesseract.tesseract_cmd = '/opt/homebrew/bin/tesseract'
-# ddddd
+# ddee
 book_dir = os.getcwd()
 chapter_dir = book_dir + '/' + 'Chapter-1'
 page_dir = chapter_dir + '/' + 'Page-1'
